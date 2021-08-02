@@ -15,7 +15,9 @@ export default function Home({ paths }) {
                 passHref
                 locale={path.locale}
               >
-                <a>{path.params.slug}</a>
+                <a>
+                  {path.params.slug}-{path.locale}
+                </a>
               </Link>
             </li>
           );
