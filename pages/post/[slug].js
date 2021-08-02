@@ -72,7 +72,6 @@ export async function getStaticProps({ params: { slug }, locale, locales }) {
       post,
       menuData,
     },
-    //TODO evtl menu url fetch is the problem
     revalidate: 60,
   };
 }
