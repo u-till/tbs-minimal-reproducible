@@ -1,1 +1,1 @@
-export const baseUrl = "https://api.the-bath-shop.com";
+export const baseUrl = "https://wptest3.utill.dev";

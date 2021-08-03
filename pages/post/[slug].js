@@ -40,6 +40,7 @@ const NewsPaperWrapper = styled.div`
 ///////////////
 
 export default function Post(props) {
+  console.log(props.post[0].content);
   return (
     <>
       <div>
